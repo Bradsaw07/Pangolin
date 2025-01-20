@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: DataUtilityHub
+Version: 0.1.0
+Summary: Una biblioteca de ciencia de datos diseñada para simplificar el análisis exploratorio de datos y machine learning
+Author: Tu Nombre
+License: MIT
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Dynamic: requires-python
