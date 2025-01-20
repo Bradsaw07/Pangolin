@@ -1,5 +1,41 @@
 # DataUtilityHub
 
+Biblioteca de utilidades para ciencia de datos que incluye herramientas para análisis exploratorio, visualización, preprocesamiento y machine learning.
+
+## Requisitos previos
+
+- Python 3.9 o superior
+- pip (gestor de paquetes de Python)
+
+## Instalación
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/tu-usuario/DataUtilityHub.git
+cd DataUtilityHub
+```
+
+2. Instala las dependencias:
+```bash
+pip install -r requirements.txt
+```
+
+## Uso rápido
+
+Para probar la funcionalidad básica, ejecuta el script de ejemplo:
+
+```bash
+python prueba.py
+```
+
+Este script demostrará:
+- Análisis de valores nulos
+- Generación de visualizaciones
+- Preprocesamiento de datos
+- Entrenamiento y evaluación de un modelo de machine learning
+
+Los resultados y visualizaciones se guardarán en el directorio `resultados/`.
+
 <div align="center">
 
 ![DataUtilityHub Logo](img/logo.png)
@@ -24,10 +60,6 @@ Una biblioteca de ciencia de datos diseñada para simplificar el análisis explo
 - [Contribuir](#-contribuir)
 - [Licencia](#-licencia)
 
-## 🚀 Instalación
-```bash
-pip install DataUtilityHub
-```
 ## ✨ Características
 
 ### Análisis Exploratorio de Datos (EDA)

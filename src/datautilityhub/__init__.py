@@ -1,22 +1,26 @@
 """
-DataUtilityHub - Una biblioteca para simplificar el análisis exploratorio de datos y machine learning
+DataUtilityHub - A comprehensive library for data science and machine learning utilities.
 """
 
-from .eda import DataLoader, NullAnalyzer, DuplicateHandler
-from .visualization import DataVisualizer
-from .preprocessing import DataCleaner, FeatureEngineer
-from .ml import ModelEvaluator
-from .utils import LibraryInstaller
+from .core import DataLoader, NullAnalyzer, DuplicateHandler
+from .utils import DataVisualizer, DataCleaner, FeatureEngineer
+from .models import ModelEvaluator, ModelOptimizer, ModelPersistence
 
 __version__ = "0.1.0"
 
 __all__ = [
+    # Core
     'DataLoader',
     'NullAnalyzer',
     'DuplicateHandler',
+    
+    # Utils
     'DataVisualizer',
     'DataCleaner',
     'FeatureEngineer',
+    
+    # Models
     'ModelEvaluator',
-    'LibraryInstaller'
+    'ModelOptimizer',
+    'ModelPersistence'
 ]
